@@ -1,0 +1,25 @@
+/* _partial.scss */
+
+.mainNav {
+    position: relative;
+    bottom: -250px;
+    left: 0px;
+}
+
+.navAbout {
+color: white;
+    text-transform: uppercase;
+    font-family: montserrat-light;
+    letter-spacing: .1em;
+    text-align: center;
+        margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.navAbout>a {
+  color: white;
+}
+
+.navAbout>a:hover {
+  text-decoration: none;
+}

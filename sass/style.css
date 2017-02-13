@@ -6,6 +6,30 @@ ol {
   margin: 0;
   padding: 0; }
 
+/* _partial.scss */
+.mainNav {
+  position: relative;
+  bottom: -250px;
+  left: 0px; }
+
+.navAbout {
+  color: white;
+  text-transform: uppercase;
+  font-family: montserrat-light;
+  letter-spacing: .1em;
+  text-align: center;
+  margin-left: 70px;
+  margin-bottom: 10px; }
+
+.navAbout > a {
+  color: white; }
+
+.navAbout > a:hover {
+  text-decoration: none; }
+
+body {
+  color: #fff; }
+
 body {
   font: 100% Helvetica, sans-serif;
   color: #333; }
@@ -68,5 +92,22 @@ aside[role="complementary"] {
   float: right;
   width: 31.25%; }
 
+.social, .facebook, .instagram, .google-plus {
+  font-family: Oswald, sans-serif;
+  font-size: 24px;
+  color: #2980b9; }
+
+.facebook {
+  color: blue; }
+
+.instagram {
+  color: yellow; }
+
+.google-plus {
+  color: green; }
+
 @media (min-width: 700px) {
   color: red; }
+
+@media only screen and (max-width: 320px) {
+  background: red; }

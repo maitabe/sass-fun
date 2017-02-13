@@ -1,3 +1,4 @@
+//gulp is an automation tool built for automatic tasks
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var connect = require('gulp-connect');
